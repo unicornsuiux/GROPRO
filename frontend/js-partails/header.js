@@ -1,6 +1,6 @@
 document.write('<nav class="navbar fixed-top">');
 document.write('    <div class="container">');
-document.write('        <a class="navbar-brand theme_logo" href="./home.html">');
+document.write('        <a class="navbar-brand theme_logo" href="./index.html">');
 document.write('            <img src="./frontend/img/home-page/Gro.Pro.svg" id="logo-light" class="obj_fit_contain" alt="Gro.Pro">');
 document.write('        </a>');
 document.write('        <div class="toggle_wrap">');
@@ -21,7 +21,7 @@ document.write('            </div>');
 document.write('            <div class="offcanvas-body">');
 document.write('                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">');
 document.write('                    <li class="nav-item">');
-document.write('                        <a href="./home.html" class="nav-link active" aria-current="page" href="#">Home</a>');
+document.write('                        <a href="./index.html" class="nav-link active" aria-current="page" href="#">Home</a>');
 document.write('                    </li>');
 document.write('                    <li class="nav-item">');
 document.write('                        <a href="./about.html" class="nav-link" href="#">About Us</a>');
