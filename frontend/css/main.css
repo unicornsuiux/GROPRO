@@ -1,0 +1,901 @@
+@import url('./branding.css?v=0.1');
+
+
+/* ALL FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ALL FONTS */
+
+
+
+/*====================== HEADER CSS START ============== */
+.navbar{
+    padding: 30px 0;
+}
+.navbar .theme_logo{
+    width: 131px;
+    height: 42px;
+}
+.navbar .toggle_wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar .navbar-toggler-icon{
+    background-image: url(../img/home-page/menu-bar.svg);
+}
+.offcanvas{
+    background-color: var(--theme-secondry-color);
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--theme-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Register{
+    display: none;
+}
+/*======================= HEADER CSS END ================ */
+
+
+/*======================= HOME BANNER CSS START================== */
+.banner .container .row{
+    background-color: var(--theme-secondry-color);
+    border-radius: 28px;
+    overflow: hidden;
+}
+.banner .left-side{
+    padding:80px 0 80px 80px;
+}
+.banner .left-side .banner-content{
+    max-width: 441px;
+}
+.banner-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.banner-img{
+    text-align: center;
+    padding-top: 57px;
+    height: 630px;
+    position: relative;
+}
+.overlay-img-1{
+    position: absolute;
+    right: 17%;
+    top: 24%;
+    width: 429px;
+    height: 300px;
+}
+.overlay-img-1 img{
+    width: 100%;
+    height: 154%;
+    object-fit: cover;
+}
+.overlay-img-2{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.overlay-img-3{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+.review-box{
+    display: flex;
+    gap: 20px;
+    background-color: var(--theme-main-bg);
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+.banner-content-1{
+    padding: 60px 40px;
+}
+.banner-socail{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.banner-socail span{
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 100%;
+    background-color: var(--theme-secondry-color);
+    mix-blend-mode: normal;
+    box-shadow: 0px 6px 44px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+.banner-socail span img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*========================= HOME BANNER CSS END =================== */
+
+
+/*========================= SECTION-2 CSS START =================== */
+.section-2 .block-1{
+    max-width: 380px;
+}
+.section-2 .block-2{
+    display: flex;
+    gap: 120px;
+}
+.section-2 .block-2 h1{
+    font-size: 85px;
+    position: relative;
+}
+.section-2 .block-2 h1::after{
+    content: "";
+    position: absolute;
+    width: 89px;
+    height: 89px;
+    background-color: var(--theme-yellow-1);
+    border-radius: 50%;
+    left: -39px;
+    z-index: -1;
+    top: -33px;
+}
+.section-2 .block-2 span{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*========================= SECTION-2 CSS END ===================== */
+
+
+/*========================= SECTION-3 CSS START =================== */
+.section-3 .block_wrap{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.section-3 .block_wrap .box{
+    background-color: var(--theme-bg-light);
+    flex-grow: 1;
+    height: 222px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-3 .box h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #9CD161;
+}
+.section-3 .box p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-3 .block_wrap .box-1 h1,
+.section-3 .block_wrap .box-1 p{
+    color: var(--theme-yellow-1);
+}
+.section-3 .block_wrap .box-2 h1,
+.section-3 .block_wrap .box-2 p{
+    color: var(--theme-yellow-2);
+}
+.section-3 .block_wrap .box-3 h1,
+.section-3 .block_wrap .box-3 p{
+    color: var(--theme-sky-color);
+}
+.section-3 .block-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/*========================= SECTION-3 CSS END ===================== */
+
+
+/*========================= SECTION-4 CSS START ===================== */
+.section-4 .side_by_img_size{
+    background-color: var(--theme-secondry-color);
+    border-radius: 20px;
+    height: 500px;
+    position: relative;
+    width: 90%;
+}
+.section-4 .side_by_img_size .person-img{
+    padding-top: 40px;
+}
+.section-4 h2{
+    margin-bottom: 35px;
+}
+.section-4 .block-1{
+    display: flex;
+    gap: 20px;
+}
+.section-4 .custom_scroll-bar{
+    width: 5px;
+    background: var(--theme-white);
+}
+.section-4 .scoll-thumb{
+    height: 33.333%;
+    position: relative;
+    top:0;
+    background-color:var(--theme-orange);
+}
+.section-4 .block-1>div p{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.section-4 .side_by_img_size .overlay-img-1{
+    position: absolute;
+    top: 45%;
+    left: -60px;
+    transform: translateY(-50%);
+    width: 125px;
+    height: 125px;
+} 
+.section-4 .side_by_img_size .overlay-img-2{
+    position: absolute;
+    top: 0%;
+    right:-76px;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 180px;
+} 
+.section-4 .counters{
+    display: flex;
+    align-items: center;
+}
+.section-4 .counters>div{
+    flex-grow: 1;
+    width: 30%;
+}
+.section-4 .counters p{
+    text-transform: uppercase;
+}
+.section-4 .counters h2{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.section-4 .single-block{
+    max-width: 300px;
+}
+/*========================= SECTION-4 CSS END ======================= */
+
+
+/*========================= SECTION-5 CSS START ======================= */
+.section-5 .brand-logo{
+    width: 85px;
+    height: 85px;
+}
+.section-5_inner{
+    background-color: var(--theme-secondry-color);
+    border-radius: 28px;
+    padding: 80px 128px;
+    margin: auto;
+    width: 90%;
+}
+.section-5 .box{
+    background-color: var(--theme-secondry-color-light);
+    padding: 40px;
+    border-radius: 30px;
+    display: block;
+}
+/*========================= SECTION-5 CSS END ======================= */
+
+
+/*========================= SECTION-6 CSS START ===================== */
+.section-6 .side_by_img_size{
+    width: 90%;
+    height: 500px;
+}
+.section-6 .block-1{
+    padding-right: 100px;
+}
+/*========================= SECTION-6 CSS END ======================= */
+
+
+/*========================= SECTION-7 CSS START ===================== */
+.section-7 h2{
+    max-width: 445px;
+}
+.section-7 .count{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.section-7 .block-1{
+    padding-right: 80px;
+}
+.section-7 .block-1 li{
+    border-bottom: 1px solid var(--theme-white);
+    padding: 25px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-7 .block-1 li img{
+    margin-top: 10px;
+}
+.section-7 .block-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block-4>div{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.section-7 .side_by_img_size{
+    width: 90%;
+    margin-left: auto;
+    height: 550px;
+}
+/*========================= SECTION-7 CSS END ======================= */
+
+
+/*========================= SECTION-8 CSS START ===================== */
+.section-8 .side_by_img_size{
+    height: 450px;
+    width: 95%;
+}  
+.section-8 .block-1 p{
+    line-height: 35px;
+    max-width: 300px;
+} 
+/*========================= SECTION-8 CSS END ======================= */
+
+
+/*========================= SECTION-9 CSS START ===================== */
+.section-9 h2{
+    font-weight: 600;
+    line-height: 70px;
+}
+.section-9 .input-wrap{
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+.section-9 .input-wrap input{
+    width: 100%;
+    border-radius: 50px;
+    height: 92px;
+    padding-left: 50px;
+    background-color: var(--theme-secondry-color);
+}
+.section-9 .input-wrap .theme_btn_dark{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*========================= SECTION-9 CSS END ======================= */
+
+
+/*========================= ABOUT BANNER CSS START ======================= */
+.banner .banner-content-2{
+    padding-top: 80px;
+}
+.banner .banner-content-2 h1{
+    max-width: 658px;
+    margin: 0 auto;
+}
+.banner .persons-images{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    overflow: hidden;
+}
+.banner .persons-images img{
+    width: 314px;
+}
+.banner .persons-images img:nth-child(1){
+    position: relative;
+    bottom: -75px;
+}
+/*========================= ABOUT BANNER CSS END ======================= */
+
+
+/*========================= ABOUT TEAM CSS START ======================= */
+.section_cards .card_1{
+    background-color: var(--theme-secondry-color);
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+.section_cards .socail-media{
+    background-color: var(--theme-secondry-color);
+}
+.card_1 .team-img{
+    width: 328px;
+    height: 290px;
+}
+.section_cards .socail-media{
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px auto;
+}
+.section_cards .socail-media span{
+    display: block;
+    background-color: var(--theme-main-bg);
+    width: 40px;
+    height: 40px;
+    border-radius: 11.4286px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s linear;
+}
+.section_cards .socail-media span:hover{
+    transform: translateY(-10px);
+}
+/*========================= ABOUT TEAM CSS END ======================= */
+
+
+/*========================= PRICE CSS START ======================= */
+
+.section-price .packages {
+    flex-grow: 1;
+    width: 30%;
+    padding: 20px 20px 30px 20px;
+    height: 100%;
+    background-color: var(--theme-secondry-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
+    flex-wrap: wrap;
+    color: #f4f4f4;
+}
+.section-price .package-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.section-price .package-top{
+    width: 100%;
+    background-color: var(--theme-main-bg);
+    border-radius: 20px;
+    padding: 30px 0;
+}
+.section-price .package-top p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.section-price .Basic{
+    background-color: var(--theme-font-color);
+}
+.section-price .standard{
+    background-color: #9CD161;
+}
+.section-price .pro{
+    background-color: #FF98D0;
+}
+.section-price .list li {
+    font-size: 20px;
+    list-style: none;
+    border-bottom: 1px solid #f4f4f4;
+    padding-inline-start: 0;
+    border-width: 1px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.section-price .first {
+    margin-top: 40px;
+}
+.section-price .list {
+    width: 100%;
+    padding: 0 15px;
+}
+.section-price .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-price input,
+.section-price label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+.section-price .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.section-price .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.section-price .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1e2321;
+    -webkit-transition: 0.4s;
+    box-shadow: 2px 6px 25px #1e2321;
+    transform: translate(0px, 0px);
+    transition: 0.6s ease transform, 0.6s box-shadow;
+}  
+.section-price .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.section-price .toggle-btn {
+    display: flex;
+    align-items: center;
+}
+.section-price input:checked + .slider {
+    background-color: var(--theme-secondry-color);
+}
+.section-price input:focus + .slider {
+    box-shadow: 0 0 1px #50bfe6;
+}  
+.section-price input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.section-price .slider.round {
+    border-radius: 34px;
+}  
+.section-price .slider.round:before {
+    border-radius: 50%;
+}
+/*========================= PRICE CSS END ======================= */
+
+
+/*=========================ACCORDION CSS START ========================== */
+.accordion-item{
+    margin-bottom: 25px;
+    color: var(--theme-white);
+    border: 0;
+    background-color: var(--theme-secondry-color);
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--theme-secondry-color);
+}
+.accordion-button{
+    background-color: var(--theme-secondry-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--theme-white);
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+    color: var(--theme-white);
+}
+.accordion-item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--theme-white);
+}
+.accordion-item:first-of-type .accordion-button, 
+.accordion-item:last-of-type .accordion-button.collapsed{
+    border-radius: 0;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    border: 0;
+}
+.accordion-button::after{
+    background-image: url(/frontend/img/about-us/arrow-Down-2.svg);
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(/frontend/img/about-us/arrow-Down-2.svg);
+}
+.w-out-bg .accordion-item{
+    background-color: transparent;
+    border-bottom: 1px solid var(--theme-primay-color);
+}
+.w-out-bg .accordion-button:not(.collapsed){
+    background-color: transparent;   
+}
+.w-out-bg .accordion-button{
+    background-color: transparent;
+}
+/*=========================ACCORDION CSS END ========================== */
+
+
+/* ========================BLOG CARDS ======================== */
+.blog-card{
+    background-color: var(--theme-secondry-color);
+    padding: 20px;
+    text-align: start;
+    border-radius: 40px;
+}
+.blog-card img{
+    border-radius: 26px;
+    height: 400px;
+}
+.blog-card-sm img{
+    border-radius: 26px;
+    height: 200px;
+}
+.blog-search_wrap{
+    background-color: var(--theme-secondry-color);
+    border-radius: 30px;
+    padding: 60px 0;
+}
+.blog-search_wrap input{
+    background-color: var(--theme-main-bg) !important;
+}
+.section-blogs .blog-title{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.section-blogs .card img{
+    height: 300px;
+}
+/*=========================BLOG CSS END ========================== */
+
+
+/*=========================BLOG DEATAIL CSS START ========================== */
+.lg-image-wrap{
+    width: 100%;
+    height: 560px;
+    border-radius: 30px;
+}
+.lg-image-wrap img{
+    border-radius: 30px;
+}
+.section-blog-detail .blog-status{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.section-blog-detail .blog-content p ,
+.section-blog-detail .blog-content span,
+.section-blog-detail .blog-content li{
+    font-family: 'Poppins',  sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.video-container {
+    position: relative;
+    height: 225px;
+    margin: 0 auto;
+    width: 100%;
+    height: 265px;
+}
+.video-container video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.video-container .controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.video-container .play-pause {
+    background-image: url('../img/blog/Video-BTN.svg');
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.video-container .playing .play-pause {
+    background-image: url('../img/blog/Video-BTN.svg');
+}
+/*=========================BLOG DEATAIL CSS END ========================== */
+
+
+/*=========================CONTACT WRAPPER CSS START ========================== */
+
+.section-contact .contact-wrapper{
+    background-color: var(--theme-secondry-color);
+    padding: 60px 50px;
+    border-radius: 30px;
+}
+/*=========================CONTACT WRAPPER CSS END ========================== */
+
+
+/*=========================SECTION SINGLE CSS START ========================== */
+.single-block-img{
+    height: 320px; 
+}
+.single-block-img img{
+    border-radius: 30px;
+}
+.single-block-img-lg img{
+    border-radius: 30px;
+}
+/*=========================SECTION SINGLE CSS CSS END ========================== */
+
+
+/*=========================SECTION TABLE CSS CSS START ========================== */
+.process-table .table{
+    color: #fff;
+}
+.process-table .table td{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 30px 0;
+    border-bottom-color: var(--theme-secondry-color);
+}
+/*=========================SECTION TABLE CSS CSS END ========================== */
+
+
+/*=========================SECTION SERVICES CSS  START ========================== */
+.section-servives .service-item{
+    background-color: var(--theme-secondry-color);
+    border-radius: 20px;
+    padding: 50px 25px;
+    text-align: center;
+    display: block;
+}
+.section-servives .service-item img{
+    margin-bottom: 30px;
+}
+/*=========================SECTION SERVICES CSS  END ========================== */
+
+
+/*=========================SECTION CONSULTING CSS START ========================== */
+.consulting-item img{
+    width: 294px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+/*=========================SECTION CONSULTING CSS END ========================== */
+
+
+/*========================= FOOTER CSS START ========================== */
+.footer{
+    background-color: var(--theme-secondry-color);
+}
+.cols-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    border-bottom: 1px solid #AABDB4;
+}
+.f-col{
+    width: 20%;
+}
+.f-col ul{
+    padding: 0;
+}
+.footer h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--theme-font16);
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer a{
+    font-family: 'Poppins';
+    font-size: var(--theme-font14);
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.footer a:hover{
+    color: inherit;
+}
+.f-col ul li{
+    margin-top: 20px;
+}
+.copyright .row{
+    padding: 30px 0;
+}
+/*========================= FOOTER CSS END ========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
