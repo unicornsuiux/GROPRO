@@ -1,5 +1,5 @@
 ﻿document.write('<meta name="theme-color" content="#17a6b5">');
-document.write('<link rel="shortcut icon" type="image/png" href="./frontend/img/ornament-lime.png" />');
+document.write('<link rel="shortcut icon" type="image/png" href="./frontend/img/home-page/Gro.Pro.svg" />');
 document.write('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">');
 document.write('<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />');
 document.write('<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>');
