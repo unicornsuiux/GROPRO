@@ -1,58 +1,3 @@
-$('.solution_silder_wrap').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    dots:true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        768: {
-            items: 2
-        },
-        1000: {
-            items: 3
-        }
-    }
-});
-
-$('.testimonail_silder').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
-        }
-    }
-});
-$('.partner_slider').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: false,
-    responsive: {
-        0: {
-            items: 3
-        },
-        600: {
-            items: 5
-        },
-        1000: {
-            items: 7
-        }
-    }
-});
-
-
 $(document).ready(function() {
   $('.accordion-panel').on('click', '.accordion__header', function() {
     $('.accordion__body').slideUp().removeClass('flipInX');
@@ -66,7 +11,6 @@ $(document).ready(function() {
   });
 });
 
-
 // HEADER STICKY 
 
 $(window).scroll(function() {
@@ -79,26 +23,7 @@ $(window).scroll(function() {
     }
 });
 
-
-
-function check() {
-    var checkBox = document.getElementById("checbox");
-    var text1 = document.getElementsByClassName("text1");
-    var text2 = document.getElementsByClassName("text2");
-  
-    for (var i = 0; i < text1.length; i++) {
-      if (checkBox.checked == true) {
-        text1[i].style.display = "block";
-        text2[i].style.display = "none";
-      } else if (checkBox.checked == false) {
-        text1[i].style.display = "none";
-        text2[i].style.display = "block";
-      }
-    }
-  }
-  check();
-// vedio
-
+// VEDIO PLAYER
 
 $(document).ready(function() {
     var video = $('.video-container video')[0];
@@ -114,5 +39,33 @@ $(document).ready(function() {
         playPauseBtn.parent().removeClass('playing');
       }
     });
-  });
-  
+});
+
+
+
+// ANIMATION
+wow = new WOW(
+  {
+    animateClass: 'animated',
+    offset:       100,
+    callback:     function(box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  }
+);
+wow.init();
+
+// BACK TO TOP
+$(document).ready(function(){ 
+  $(window).scroll(function(){ 
+      if ($(this).scrollTop() > 100) { 
+          $('#scroll').fadeIn(); 
+      } else { 
+          $('#scroll').fadeOut(); 
+      } 
+  }); 
+  $('#scroll').click(function(){ 
+      $("html, body").animate({ scrollTop: 0 }, 600); 
+      return false; 
+  }); 
+});

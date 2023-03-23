@@ -5,7 +5,7 @@ document.write('            <img src="./frontend/img/home-page/Gro.Pro.svg" id="
 document.write('        </a>');
 document.write('        <div class="toggle_wrap">');
 document.write('            <a href="javascript:void(0)" class="theme_btn theme_btn_outline">Register</a>');
-document.write('            <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas"');
+document.write('            <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas"');
 document.write('                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">');
 document.write('                <span class="navbar-toggler-icon"></span>');
 document.write('            </button>');

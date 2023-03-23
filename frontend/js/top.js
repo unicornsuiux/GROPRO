@@ -9,6 +9,7 @@ document.write('<link rel="preconnect" href="https://fonts.gstatic.com" crossori
 document.write('<link rel="stylesheet" href="./frontend/owl/owl.carousel.min.css">');
 document.write('<link rel="stylesheet" href="./frontend/owl/owl.theme.default.min.css">');
 document.write('<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">');
+document.write('<link rel="stylesheet" href="./frontend/wowjs/libs/animate.css">');
 document.write('<link rel="stylesheet" href="./frontend/css/main.css">');
 document.write('<link rel="stylesheet" href="./frontend/css/media-queris.css">')
 
