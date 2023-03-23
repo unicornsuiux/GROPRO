@@ -474,6 +474,9 @@ section {
 }
 .theme_btn_dark:hover{
     color: var(--theme-main-bg);
+    background-color: transparent;
+    color: var(--theme-white);
+    border-color:var(--theme-white)
 }
 .theme_btn_outline {
     color: var(--theme-white);
