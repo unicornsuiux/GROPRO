@@ -263,6 +263,15 @@
     .toggle-btn h2{
         font-size: 20px;
     }
+    .section-6 .block-1 h2{
+        font-size: 23px;
+    }
+    .process-table .table td {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        padding: 20px 10px;
+    }
 }
 @media only screen and (max-width:375px){
     .section-9 h2{

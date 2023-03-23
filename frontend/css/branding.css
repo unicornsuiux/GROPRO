@@ -1166,4 +1166,13 @@ body .search-field {
     .container{
         --bs-gutter-x: 2rem;
     }
+    .p-20{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    h6{
+        font-size: 22px;
+        line-height: 1.5;
+    }
 }
