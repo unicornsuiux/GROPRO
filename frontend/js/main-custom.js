@@ -1,17 +1,13 @@
-$(document).ready(function() {
-  $('.accordion-panel').on('click', '.accordion__header', function() {
-    $('.accordion__body').slideUp().removeClass('flipInX');
-    if($(this).next().is(':hidden')) {
-      $(this).next().slideDown().addClass('flipInX');
-      $(this).closest('.accordion__header').addClass('open');
-    } else {
-      $(this).next().slideUp();
-      $(this).closest('.accordion__header').removeClass('open');
-    }
-  });
-});
 
-// HEADER STICKY 
+// ====================== PRELOADER =======================
+window.addEventListener("load", function(){
+  const preloader = document.getElementById("preloader");
+  preloader.style.display = "none";
+})
+
+
+
+// ========================== HEADER STICKY =========================
 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -23,7 +19,33 @@ $(window).scroll(function() {
     }
 });
 
-// VEDIO PLAYER
+
+// =============== SHIFTING HEADER ==================
+
+$(document).ready(function() {
+  var lastScroll = 50;
+
+  jQuery(document).ready(function($) {
+      $(window).scroll(function() {
+          setTimeout(function() {
+              //gives 100ms to finish scrolling before doing a check
+              var scroll = $(window).scrollTop();
+              console.log('Scroll:', scroll);
+              console.log('LastScroll:', lastScroll);
+
+              if (scroll > 100 && scroll > lastScroll) {
+                  $(".navbar").addClass("shift");
+              } else if (scroll < lastScroll) {
+                  $(".navbar").removeClass("shift");
+              }
+
+              lastScroll = scroll;
+          }, 100);
+      });
+  });
+});
+
+// ======================== VEDIO PLAYER ====================
 
 $(document).ready(function() {
     var video = $('.video-container video')[0];
@@ -42,7 +64,7 @@ $(document).ready(function() {
 });
 
 
-// CHANGE PRICING
+// ======================== CHANGE PRICING  ======================
 function check() {
   var checkBox = document.getElementById("checbox");
   var text1 = document.getElementsByClassName("text1");
@@ -62,7 +84,7 @@ check();
 
 
 
-// ANIMATION
+// ============================ WOW ANIMATION =======================
 wow = new WOW(
   {
     animateClass: 'animated',
@@ -74,7 +96,7 @@ wow = new WOW(
 );
 wow.init();
 
-// BACK TO TOP
+// =========================  BACK TO TOP ========================
 $(document).ready(function(){ 
   $(window).scroll(function(){ 
       if ($(this).scrollTop() > 100) { 

@@ -18,7 +18,7 @@ document.write('            <div class="col-lg-10">');
 document.write('                <form action="">');
 document.write('                    <div class="input-wrap mt-5">');
 document.write('                        <input type="email" name="email" id="email" placeholder="Enter your email address">');
-document.write('                        <a href="#" class="theme_btn_dark">Subscribe Now</a>');
+document.write('                        <a href="javascript:void(0)" class="theme_btn_dark">Subscribe Now</a>');
 document.write('                    </div>');
 document.write('                </form>');
 document.write('            </div>');

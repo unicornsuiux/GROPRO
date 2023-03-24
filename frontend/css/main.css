@@ -15,6 +15,9 @@
     background-color: var(--theme-main-bg);
     padding: 20px 0;
 }
+.navbar.shift {
+    transform: translateY(-100%);
+}
 .navbar .theme_logo{
     width: 150px;
     height: 42px;
@@ -751,6 +754,9 @@
     align-items: center;
     height: 40px;
 }
+.controls.playing .play-pause{
+    display: none;
+}
 .video-container .play-pause {
     background-image: url('../img/blog/Video-BTN.svg');
     background-size: 100%;
@@ -826,6 +832,9 @@
     height: 393px;
     object-fit: cover;
     border-radius: 20px;
+}
+#loom-companion-mv3{
+    display: none;
 }
 /*=========================SECTION CONSULTING CSS END ========================== */
 
