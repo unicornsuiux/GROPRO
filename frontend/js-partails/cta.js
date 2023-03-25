@@ -1,4 +1,4 @@
-document.write('<section class="section-9 wow pulse">');
+document.write('<section class="section-9 wow fadeInDown">');
 document.write('    <div class="container">');
 document.write('        <div class="row justify-content-center">');
 document.write('            <div class="col-lg-8 text-center">');
