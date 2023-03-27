@@ -281,4 +281,7 @@
         font-size: 25px;
         line-height: 55px;   
     }
+    .section_cards .socail-media{
+        width: 80%;
+    }
 }
